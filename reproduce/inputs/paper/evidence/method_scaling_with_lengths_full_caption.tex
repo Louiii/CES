@@ -1,0 +1,12 @@
+\textbf{CES and editing baselines across model scale.}
+Panels A--F evaluate checkpoints before CoEdit fine-tuning or RL; points show means and sample standard deviations across three training seeds.
+Clean AR appears only in A/B as a language-model reference at the same nominal token budget. BPB is measured on validation text.
+Controlled repair uses 1,000 examples per run (250 for adapted CES); invalid outputs return the source and remain in the denominator.
+Oracle-span FIM receives the gold span. Undefined language-model measurements for iterative Levenshtein are omitted.
+E measures the fraction with positive change in character similarity to the target; F measures mean change, using \texttt{SequenceMatcher} with \texttt{autojunk=False}.
+These are applied-output results, distinct from the original conditional probes. G uses the same 485 CoEdit source/reference pairs for every method.
+Filled bars encode the reference using the native formats: a shared deterministic token-Levenshtein alignment for CES and the DSLs, whole-target regeneration, or the gold FIM envelope.
+Counts include output-format delimiters and exclude conditioning prefixes; predicted FIM assumes correct span selection.
+The hatched iterative bar (*) counts its target with boundary tokens, not an autoregressive program or refinement work.
+Outlined bars show observed d24 seed-42 output lengths after supervised CoEdIT fine-tuning; outputs differ in quality and coverage. AR-DSL and flat-relative are new RTX 5080 reruns, matching the historical final output on all 485 cases per method.
+Their short outputs mostly reflect immediate termination and failed editing. The iterative model inserts no tokens and uses two encoder passes on every input. Reference encodings include fixed opening controls that may already be prefilled during generation, so they are not identical accounting units to retained decode steps. The third bar adds prompt (grey) plus minimum reference completion (hatched), including termination. It optimizes monotonic insert/delete/replace programs at fixed BPE boundaries and fixed prompt templates; COPY/MOVE are excluded. FIM assumes the correct span; its prompt includes retained context and, for predicted FIM, locator context. The iterative third bar counts input plus target storage. These reference-resolving calculations are distinct from the observed attempts.

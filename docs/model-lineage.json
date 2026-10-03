@@ -1,0 +1,1669 @@
+{
+  "format_version": 1,
+  "models": [
+    {
+      "model_id": "clean-ar-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d12/seed42/model_026880.pt",
+      "metadata": "checkpoints/clean-ar/d12/seed42/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/clean-ar/d12/seed42/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "clean-ar-d12-pretrained-seed43",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 43,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d12/seed43/model_026880.pt",
+      "metadata": "checkpoints/clean-ar/d12/seed43/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d12-pretrained-seed43",
+          "step": 26880,
+          "checkpoint": "checkpoints/clean-ar/d12/seed43/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "clean-ar-d12-pretrained-seed44",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 44,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d12/seed44/model_026880.pt",
+      "metadata": "checkpoints/clean-ar/d12/seed44/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d12-pretrained-seed44",
+          "step": 26880,
+          "checkpoint": "checkpoints/clean-ar/d12/seed44/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "clean-ar-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d18/seed42/model_039600.pt",
+      "metadata": "checkpoints/clean-ar/d18/seed42/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/clean-ar/d18/seed42/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "clean-ar-d18-pretrained-seed43",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 43,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d18/seed43/model_039600.pt",
+      "metadata": "checkpoints/clean-ar/d18/seed43/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d18-pretrained-seed43",
+          "step": 39600,
+          "checkpoint": "checkpoints/clean-ar/d18/seed43/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "clean-ar-d18-pretrained-seed44",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 44,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/clean-ar/d18/seed44/model_039600.pt",
+      "metadata": "checkpoints/clean-ar/d18/seed44/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "clean-ar-d18-pretrained-seed44",
+          "step": 39600,
+          "checkpoint": "checkpoints/clean-ar/d18/seed44/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 1680,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d12-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/pretrained/model_001000.pt"
+        },
+        {
+          "model_id": "adapted-ces-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/pretrained/model_001000.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/pretrained/meta_001000.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 1680,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d12-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/pretrained/model_001000.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 2475,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d18-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/pretrained/model_001000.pt"
+        },
+        {
+          "model_id": "adapted-ces-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/pretrained/model_001000.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/pretrained/meta_001000.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 2475,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d18-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/pretrained/model_001000.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 4675,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d24-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/model_001000.pt"
+        },
+        {
+          "model_id": "adapted-ces-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "adapted-ces-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/model_001000.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/meta_001000.json",
+      "lineage": [
+        {
+          "stage": "clean-pretraining",
+          "step": 4675,
+          "checkpoint": null
+        },
+        {
+          "model_id": "adapted-ces-d24-pretrained-seed42",
+          "step": 1000,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/model_001000.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "ar-dsl-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ar-dsl-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ar-dsl-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ar-dsl-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "ar-dsl-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "flat-relative-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "flat-relative-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "flat-relative-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "flat-relative-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "flat-relative-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/coedit-finetuned/model_000050.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/coedit-finetuned/meta_000050.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d12-pretrained-seed42",
+          "step": 8960,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/pretrained/model_008960.pt"
+        },
+        {
+          "model_id": "iterative-levenshtein-d12-sft-coedit-seed42",
+          "step": 50,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/coedit-finetuned/model_000050.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/pretrained/model_008960.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/pretrained/meta_008960.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d12-pretrained-seed42",
+          "step": 8960,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/pretrained/model_008960.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/coedit-finetuned/model_000050.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/coedit-finetuned/meta_000050.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d18-pretrained-seed42",
+          "step": 13200,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/pretrained/model_013200.pt"
+        },
+        {
+          "model_id": "iterative-levenshtein-d18-sft-coedit-seed42",
+          "step": 50,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/coedit-finetuned/model_000050.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/pretrained/model_013200.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/pretrained/meta_013200.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d18-pretrained-seed42",
+          "step": 13200,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/pretrained/model_013200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/coedit-finetuned/model_000050.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/coedit-finetuned/meta_000050.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d24-pretrained-seed42",
+          "step": 24933,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/model_024933.pt"
+        },
+        {
+          "model_id": "iterative-levenshtein-d24-sft-coedit-seed42",
+          "step": 50,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/coedit-finetuned/model_000050.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "iterative-levenshtein-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/model_024933.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/meta_024933.json",
+      "lineage": [
+        {
+          "model_id": "iterative-levenshtein-d24-pretrained-seed42",
+          "step": 24933,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/model_024933.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "oracle-span-fim-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "oracle-span-fim-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "oracle-span-fim-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "oracle-span-fim-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "oracle-span-fim-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "predicted-span-fim-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "predicted-span-fim-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "predicted-span-fim-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "predicted-span-fim-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "predicted-span-fim-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d12-sft-coedit-seed42",
+      "depth": 12,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/pretrained/model_026880.pt"
+        },
+        {
+          "model_id": "regeneration-d12-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d12-pretrained-seed42",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/pretrained/model_026880.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/pretrained/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d12-pretrained-seed42",
+          "step": 26880,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/pretrained/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d18-sft-coedit-seed42",
+      "depth": 18,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "regeneration-d18-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d18-pretrained-seed42",
+      "depth": 18,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/pretrained/model_039600.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/pretrained/meta_039600.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/pretrained/model_039600.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d24-sft-coedit-seed42",
+      "depth": 24,
+      "stage": "sft-coedit",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/coedit-finetuned/model_000150.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/coedit-finetuned/meta_000150.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "regeneration-d24-sft-coedit-seed42",
+          "step": 150,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/coedit-finetuned/model_000150.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "regeneration-d24-pretrained-seed42",
+      "depth": 24,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/model_074800.pt",
+      "metadata": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "regeneration-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/model_074800.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-pretrained-seed42-pointer-role-specific",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/role-specific/model_026880.pt",
+      "metadata": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/role-specific/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-pointer-role-specific",
+          "step": 26880,
+          "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/role-specific/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-pretrained-seed42-pointer-shared",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/shared/model_026880.pt",
+      "metadata": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/shared/meta_026880.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-pointer-shared",
+          "step": 26880,
+          "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/shared/model_026880.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-gec-seed42",
+      "depth": 12,
+      "stage": "rl-gec",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-42/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-42/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-gec-seed42",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-42/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-gec-seed43",
+      "depth": 12,
+      "stage": "rl-gec",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-43/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-43/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-gec-seed43",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-43/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-gec-seed44",
+      "depth": 12,
+      "stage": "rl-gec",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-44/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-44/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-gec-seed44",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-44/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-gec-seed42",
+      "depth": 18,
+      "stage": "rl-gec",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-42/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-42/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-gec-seed42",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-42/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-gec-seed43",
+      "depth": 18,
+      "stage": "rl-gec",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-43/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-43/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-gec-seed43",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-43/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-gec-seed44",
+      "depth": 18,
+      "stage": "rl-gec",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-44/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-44/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-gec-seed44",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-44/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-gec-seed42",
+      "depth": 24,
+      "stage": "rl-gec",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-42/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-42/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-gec-seed42",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-42/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-gec-seed43",
+      "depth": 24,
+      "stage": "rl-gec",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-43/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-43/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-gec-seed43",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-43/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-gec-seed44",
+      "depth": 24,
+      "stage": "rl-gec",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-44/model_000200.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-44/meta_000200.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-gec-seed44",
+          "step": 200,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-44/model_000200.pt"
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-sft-balanced-seed42",
+      "depth": 12,
+      "stage": "sft-balanced",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d12-balanced-sft.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-broad-seed42",
+      "depth": 12,
+      "stage": "rl-broad",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d12-seed42-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-broad-seed43",
+      "depth": 12,
+      "stage": "rl-broad",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d12-seed43-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-rl-broad-seed44",
+      "depth": 12,
+      "stage": "rl-broad",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d12-seed44-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d12-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d12-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-sft-balanced-seed42",
+      "depth": 18,
+      "stage": "sft-balanced",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d18-balanced-sft.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-broad-seed42",
+      "depth": 18,
+      "stage": "rl-broad",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d18-seed42-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-broad-seed43",
+      "depth": 18,
+      "stage": "rl-broad",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d18-seed43-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d18-rl-broad-seed44",
+      "depth": 18,
+      "stage": "rl-broad",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d18-seed44-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d18-pretrained-seed42",
+          "step": 39600,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt"
+        },
+        {
+          "model_id": "ces-d18-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d18-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-sft-balanced-seed42",
+      "depth": 24,
+      "stage": "sft-balanced",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d24-balanced-sft.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-broad-seed42",
+      "depth": 24,
+      "stage": "rl-broad",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d24-seed42-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed42",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-broad-seed43",
+      "depth": 24,
+      "stage": "rl-broad",
+      "seed": 43,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d24-seed43-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed43",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-rl-broad-seed44",
+      "depth": 24,
+      "stage": "rl-broad",
+      "seed": 44,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": "analysis/posttraining-lineage/d24-seed44-broad.json",
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-rl-broad-seed44",
+          "step": 100,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d24-sft-gec-matched-seed42",
+      "depth": 24,
+      "stage": "sft-gec-matched",
+      "seed": 42,
+      "seed_role": "posttraining",
+      "checkpoint": null,
+      "metadata": null,
+      "lineage": [
+        {
+          "model_id": "ces-d24-pretrained-seed42",
+          "step": 74800,
+          "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt"
+        },
+        {
+          "model_id": "ces-d24-sft-balanced-seed42",
+          "step": 800,
+          "checkpoint": null
+        },
+        {
+          "model_id": "ces-d24-sft-gec-matched-seed42",
+          "step": 200,
+          "checkpoint": null
+        }
+      ]
+    },
+    {
+      "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+      "depth": 12,
+      "stage": "pretrained",
+      "seed": 42,
+      "seed_role": "model",
+      "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt",
+      "metadata": "checkpoints/rl-posttraining/ces/d12/pretrained/meta_074800.json",
+      "lineage": [
+        {
+          "model_id": "ces-d12-pretrained-seed42-posttraining-base",
+          "step": 74800,
+          "checkpoint": "checkpoints/rl-posttraining/ces/d12/pretrained/model_074800.pt"
+        }
+      ]
+    }
+  ]
+}

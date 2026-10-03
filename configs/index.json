@@ -1,0 +1,392 @@
+[
+  {
+    "config": "clean-ar__d12__seed42.json",
+    "checkpoint": "checkpoints/clean-ar/d12/seed42/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d12-pretrained-seed42"
+  },
+  {
+    "config": "clean-ar__d12__seed43.json",
+    "checkpoint": "checkpoints/clean-ar/d12/seed43/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d12-pretrained-seed43"
+  },
+  {
+    "config": "clean-ar__d12__seed44.json",
+    "checkpoint": "checkpoints/clean-ar/d12/seed44/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d12-pretrained-seed44"
+  },
+  {
+    "config": "clean-ar__d18__seed42.json",
+    "checkpoint": "checkpoints/clean-ar/d18/seed42/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d18-pretrained-seed42"
+  },
+  {
+    "config": "clean-ar__d18__seed43.json",
+    "checkpoint": "checkpoints/clean-ar/d18/seed43/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d18-pretrained-seed43"
+  },
+  {
+    "config": "clean-ar__d18__seed44.json",
+    "checkpoint": "checkpoints/clean-ar/d18/seed44/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "clean-ar-d18-pretrained-seed44"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d12/pretrained/model_001000.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d18/pretrained/model_001000.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__adapted-ces__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/model_001000.pt",
+    "workflow": "base_train",
+    "model_id": "adapted-ces-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ar-dsl__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "ar-dsl-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__ces__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/ces/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__flat-relative__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "flat-relative-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/coedit-finetuned/model_000050.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d12/pretrained/model_008960.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/coedit-finetuned/model_000050.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d18/pretrained/model_013200.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/coedit-finetuned/model_000050.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__iterative-levenshtein__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/model_024933.pt",
+    "workflow": "train_iterative_levenshtein",
+    "model_id": "iterative-levenshtein-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__oracle-span-fim__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "oracle-span-fim-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__predicted-span-fim__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "predicted-span-fim-d24-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d12__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d12-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d12__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d12/pretrained/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d12-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d18__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d18-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d18__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d18/pretrained/model_039600.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d18-pretrained-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d24__coedit-finetuned.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/coedit-finetuned/model_000150.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d24-sft-coedit-seed42"
+  },
+  {
+    "config": "methods-sweep__seed-m42-d1234__regeneration__d24__pretrained.json",
+    "checkpoint": "checkpoints/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/model_074800.pt",
+    "workflow": "base_train",
+    "model_id": "regeneration-d24-pretrained-seed42"
+  },
+  {
+    "config": "pretraining-ablations__ces-shared-pointer__d12__pretrain-seed-m42-d1234__role-specific.json",
+    "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/role-specific/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d12-pretrained-seed42-pointer-role-specific"
+  },
+  {
+    "config": "pretraining-ablations__ces-shared-pointer__d12__pretrain-seed-m42-d1234__shared.json",
+    "checkpoint": "checkpoints/pretraining-ablations/ces-shared-pointer/d12/pretrain-seed-m42-d1234/shared/model_026880.pt",
+    "workflow": "base_train",
+    "model_id": "ces-d12-pretrained-seed42-pointer-shared"
+  },
+  {
+    "config": "rl-posttraining__ces__d12__posttrain-seed-42.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-42/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d12-rl-gec-seed42"
+  },
+  {
+    "config": "rl-posttraining__ces__d12__posttrain-seed-43.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-43/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d12-rl-gec-seed43"
+  },
+  {
+    "config": "rl-posttraining__ces__d12__posttrain-seed-44.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d12/posttrain-seed-44/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d12-rl-gec-seed44"
+  },
+  {
+    "config": "rl-posttraining__ces__d18__posttrain-seed-42.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-42/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d18-rl-gec-seed42"
+  },
+  {
+    "config": "rl-posttraining__ces__d18__posttrain-seed-43.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-43/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d18-rl-gec-seed43"
+  },
+  {
+    "config": "rl-posttraining__ces__d18__posttrain-seed-44.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d18/posttrain-seed-44/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d18-rl-gec-seed44"
+  },
+  {
+    "config": "rl-posttraining__ces__d24__posttrain-seed-42.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-42/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d24-rl-gec-seed42"
+  },
+  {
+    "config": "rl-posttraining__ces__d24__posttrain-seed-43.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-43/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d24-rl-gec-seed43"
+  },
+  {
+    "config": "rl-posttraining__ces__d24__posttrain-seed-44.json",
+    "checkpoint": "checkpoints/rl-posttraining/ces/d24/posttrain-seed-44/model_000200.pt",
+    "workflow": "ces_rl",
+    "model_id": "ces-d24-rl-gec-seed44"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "n": 485,
+  "source": "results/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/gec_records.jsonl",
+  "objective": "Minimize fixed-template prompt plus completion; equivalent to minimum IDR completion for CES/DSL. Full source preserved for source-only methods.",
+  "exclusions": [
+    "COPY/MOVE search",
+    "alternative BPE/character alignments",
+    "arbitrary prompt rewriting",
+    "iterative-refinement runtime optimization"
+  ],
+  "termination": "Completion counts include the stop decision: EDIT_END for CES, assistant-end for regeneration/FIM, and an additional one-token stop after the textual DSL closes.",
+  "checks": "180 exhaustive comparisons; every chosen edit program reconstructs its reference; FIM endpoint totals agree",
+  "summary": [
+    {
+      "method": "ces",
+      "n": 485,
+      "scope": "Exact within fixed-prompt IDR and fixed BPE boundaries",
+      "prompt_at_min_program": 58.156701030927834,
+      "min_program_tokens": 41.83092783505155,
+      "min_total_tokens": 99.98762886597937,
+      "min_prompt_tokens": 58.156701030927834,
+      "program_at_min_prompt": 41.83092783505155
+    },
+    {
+      "method": "ar_dsl",
+      "n": 485,
+      "scope": "Exact within fixed-prompt IDR and fixed BPE boundaries",
+      "prompt_at_min_program": 62.156701030927834,
+      "min_program_tokens": 57.31340206185567,
+      "min_total_tokens": 119.4701030927835,
+      "min_prompt_tokens": 62.156701030927834,
+      "program_at_min_prompt": 57.31340206185567
+    },
+    {
+      "method": "flat_relative",
+      "n": 485,
+      "scope": "Exact within fixed-prompt IDR and fixed BPE boundaries",
+      "prompt_at_min_program": 62.156701030927834,
+      "min_program_tokens": 60.70927835051546,
+      "min_total_tokens": 122.8659793814433,
+      "min_prompt_tokens": 62.156701030927834,
+      "program_at_min_prompt": 60.70927835051546
+    },
+    {
+      "method": "regeneration",
+      "n": 485,
+      "scope": "Fixed native full-source prompt and BPE target plus terminator",
+      "prompt_at_min_program": 76.15670103092783,
+      "min_program_tokens": 55.97731958762886,
+      "min_total_tokens": 132.1340206185567,
+      "min_prompt_tokens": 76.15670103092783,
+      "program_at_min_prompt": 55.97731958762886
+    },
+    {
+      "method": "fim",
+      "n": 485,
+      "scope": "Exact over valid single gold envelopes: program minimum and prompt minimum differ; their total is invariant. Oracle FIM drops the corrupted span; predicted FIM retains source and needs two pointer decisions.",
+      "prompt_at_min_program": 31.30721649484536,
+      "min_program_tokens": 48.670103092783506,
+      "min_total_tokens": 79.97731958762887,
+      "min_prompt_tokens": 24,
+      "program_at_min_prompt": 55.97731958762886
+    },
+    {
+      "method": "fim_predicted",
+      "n": 485,
+      "scope": "Exact over valid single gold envelopes: program minimum and prompt minimum differ; their total is invariant. Oracle FIM drops the corrupted span; predicted FIM retains source and needs two pointer decisions.",
+      "prompt_at_min_program": 102.4639175257732,
+      "min_program_tokens": 48.670103092783506,
+      "min_total_tokens": 151.1340206185567,
+      "min_prompt_tokens": 95.15670103092783,
+      "program_at_min_prompt": 55.97731958762886
+    },
+    {
+      "method": "levenshtein",
+      "n": 485,
+      "scope": "Reference input/target storage with boundaries, not an autoregressive edit program or runtime work optimum",
+      "prompt_at_min_program": 57.156701030927834,
+      "min_program_tokens": 56.97731958762886,
+      "min_total_tokens": 114.1340206185567,
+      "min_prompt_tokens": 57.156701030927834,
+      "program_at_min_prompt": 56.97731958762886
+    },
+    {
+      "method": "pretrained_ces",
+      "n": 485,
+      "scope": "Exact within fixed-prompt IDR and fixed BPE boundaries",
+      "prompt_at_min_program": 58.156701030927834,
+      "min_program_tokens": 41.83092783505155,
+      "min_total_tokens": 99.98762886597937,
+      "min_prompt_tokens": 58.156701030927834,
+      "program_at_min_prompt": 41.83092783505155
+    }
+  ],
+  "elapsed_seconds": 32.97110080718994
+}

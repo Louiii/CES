@@ -1,0 +1,663 @@
+{
+  "bootstrap_samples": 20000,
+  "bootstrap_seed": 42,
+  "candidate_judgments": 10000,
+  "caveats": [
+    "Byte-identical source no-ops are deterministically normalized to same, and identical candidate outputs cannot receive a sole-method preference.",
+    "GPT-5 mini also generated part of the synthetic edit supervision; this judge may share style bias.",
+    "The judge prompt must be calibrated against a stratified human-rated subset before being treated as a primary paper metric.",
+    "Report the evaluated split's provenance and any prior use for model selection alongside these results."
+  ],
+  "configured_model": "gpt-5-mini-2025-08-07",
+  "evaluation_protocol": "reference_blind",
+  "items": 5000,
+  "judge_model": {
+    "gpt-5-mini-2025-08-07": 5000
+  },
+  "paired_controlled_differences": {
+    "human_anchor minus retained_d24": {
+      "direction_score": {
+        "bootstrap_95ci": [
+          0.5042,
+          0.5492
+        ],
+        "mean_difference": 0.5268
+      },
+      "fluency_0_to_4": {
+        "bootstrap_95ci": [
+          0.7888,
+          0.8494
+        ],
+        "mean_difference": 0.819
+      },
+      "hallucination_rate": {
+        "bootstrap_95ci": [
+          0.008,
+          0.0138
+        ],
+        "mean_difference": 0.0108
+      },
+      "meaning_preservation_0_to_4": {
+        "bootstrap_95ci": [
+          -0.2404,
+          -0.1934
+        ],
+        "mean_difference": -0.217
+      },
+      "n": 5000,
+      "over_edit_rate": {
+        "bootstrap_95ci": [
+          0.1234,
+          0.144
+        ],
+        "mean_difference": 0.1336
+      },
+      "sole_preferred_rate": {
+        "bootstrap_95ci": [
+          0.5396,
+          0.5804049999999996
+        ],
+        "mean_difference": 0.56
+      },
+      "target_equivalence_0_to_4": {
+        "bootstrap_95ci": [
+          0.9522,
+          1.0292
+        ],
+        "mean_difference": 0.9904
+      }
+    }
+  },
+  "protocol_version": 2,
+  "strata": {
+    "controlled_by_repair_num_ops": {
+      "None": {
+        "human_anchor": {
+          "changed_only": {
+            "direction_counts": {
+              "improves": 3866,
+              "same": 365,
+              "worse": 769
+            },
+            "harm_rate": {
+              "bootstrap_95ci": [
+                0.1438,
+                0.1638
+              ],
+              "mean": 0.1538
+            },
+            "n": 5000,
+            "rate": 1.0,
+            "semantic_precision": {
+              "bootstrap_95ci": [
+                0.7616,
+                0.7848
+              ],
+              "mean": 0.7732
+            }
+          },
+          "direction_counts": {
+            "improves": 3866,
+            "same": 365,
+            "worse": 769
+          },
+          "direction_score": {
+            "bootstrap_95ci": [
+              0.599,
+              0.6398
+            ],
+            "mean": 0.6194
+          },
+          "fluency_0_to_4": {
+            "bootstrap_95ci": [
+              3.6548,
+              3.6962
+            ],
+            "mean": 3.6756
+          },
+          "hallucination_rate": {
+            "bootstrap_95ci": [
+              0.008,
+              0.0138
+            ],
+            "mean": 0.0108
+          },
+          "improve_rate": {
+            "bootstrap_95ci": [
+              0.7616,
+              0.7848
+            ],
+            "mean": 0.7732
+          },
+          "meaning_preservation_0_to_4": {
+            "bootstrap_95ci": [
+              3.6848,
+              3.7264
+            ],
+            "mean": 3.706
+          },
+          "n": 5000,
+          "over_edit_rate": {
+            "bootstrap_95ci": [
+              0.1376,
+              0.15740499999999957
+            ],
+            "mean": 0.1474
+          },
+          "pearson_judge_direction_vs_char_delta": null,
+          "pearson_judge_direction_vs_likelihood_delta": null,
+          "preferred_rate": {
+            "bootstrap_95ci": [
+              0.6962,
+              0.7212
+            ],
+            "mean": 0.7088
+          },
+          "target_equivalence_0_to_4": {
+            "bootstrap_95ci": [
+              3.4278,
+              3.4844
+            ],
+            "mean": 3.456
+          },
+          "worse_rate": {
+            "bootstrap_95ci": [
+              0.144,
+              0.164
+            ],
+            "mean": 0.1538
+          }
+        },
+        "retained_d24": {
+          "changed_only": {
+            "direction_counts": {
+              "improves": 601,
+              "same": 141,
+              "worse": 138
+            },
+            "harm_rate": {
+              "bootstrap_95ci": [
+                0.13295454545454546,
+                0.18181818181818182
+              ],
+              "mean": 0.15681818181818183
+            },
+            "n": 880,
+            "rate": 0.176,
+            "semantic_precision": {
+              "bootstrap_95ci": [
+                0.6522727272727272,
+                0.7136363636363636
+              ],
+              "mean": 0.6829545454545455
+            }
+          },
+          "direction_counts": {
+            "improves": 601,
+            "same": 4261,
+            "worse": 138
+          },
+          "direction_score": {
+            "bootstrap_95ci": [
+              0.08239500000000001,
+              0.1032
+            ],
+            "mean": 0.0926
+          },
+          "fluency_0_to_4": {
+            "bootstrap_95ci": [
+              2.8332,
+              2.8804
+            ],
+            "mean": 2.8566
+          },
+          "hallucination_rate": {
+            "bootstrap_95ci": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "improve_rate": {
+            "bootstrap_95ci": [
+              0.1114,
+              0.1292
+            ],
+            "mean": 0.1202
+          },
+          "meaning_preservation_0_to_4": {
+            "bootstrap_95ci": [
+              3.912595,
+              3.9332
+            ],
+            "mean": 3.923
+          },
+          "n": 5000,
+          "over_edit_rate": {
+            "bootstrap_95ci": [
+              0.0106,
+              0.0172
+            ],
+            "mean": 0.0138
+          },
+          "pearson_judge_direction_vs_char_delta": null,
+          "pearson_judge_direction_vs_likelihood_delta": null,
+          "preferred_rate": {
+            "bootstrap_95ci": [
+              0.139,
+              0.1588
+            ],
+            "mean": 0.1488
+          },
+          "target_equivalence_0_to_4": {
+            "bootstrap_95ci": [
+              2.4418,
+              2.4902
+            ],
+            "mean": 2.4656
+          },
+          "worse_rate": {
+            "bootstrap_95ci": [
+              0.0232,
+              0.0322
+            ],
+            "mean": 0.0276
+          }
+        }
+      }
+    },
+    "controlled_by_repair_op_mode": {
+      "None": {
+        "human_anchor": {
+          "changed_only": {
+            "direction_counts": {
+              "improves": 3866,
+              "same": 365,
+              "worse": 769
+            },
+            "harm_rate": {
+              "bootstrap_95ci": [
+                0.143795,
+                0.1638
+              ],
+              "mean": 0.1538
+            },
+            "n": 5000,
+            "rate": 1.0,
+            "semantic_precision": {
+              "bootstrap_95ci": [
+                0.7614,
+                0.7848
+              ],
+              "mean": 0.7732
+            }
+          },
+          "direction_counts": {
+            "improves": 3866,
+            "same": 365,
+            "worse": 769
+          },
+          "direction_score": {
+            "bootstrap_95ci": [
+              0.599,
+              0.6398
+            ],
+            "mean": 0.6194
+          },
+          "fluency_0_to_4": {
+            "bootstrap_95ci": [
+              3.6544,
+              3.6964
+            ],
+            "mean": 3.6756
+          },
+          "hallucination_rate": {
+            "bootstrap_95ci": [
+              0.008,
+              0.0138
+            ],
+            "mean": 0.0108
+          },
+          "improve_rate": {
+            "bootstrap_95ci": [
+              0.7614,
+              0.7848
+            ],
+            "mean": 0.7732
+          },
+          "meaning_preservation_0_to_4": {
+            "bootstrap_95ci": [
+              3.685,
+              3.7266
+            ],
+            "mean": 3.706
+          },
+          "n": 5000,
+          "over_edit_rate": {
+            "bootstrap_95ci": [
+              0.1376,
+              0.1574
+            ],
+            "mean": 0.1474
+          },
+          "pearson_judge_direction_vs_char_delta": null,
+          "pearson_judge_direction_vs_likelihood_delta": null,
+          "preferred_rate": {
+            "bootstrap_95ci": [
+              0.6962,
+              0.7216
+            ],
+            "mean": 0.7088
+          },
+          "target_equivalence_0_to_4": {
+            "bootstrap_95ci": [
+              3.4278,
+              3.4852
+            ],
+            "mean": 3.456
+          },
+          "worse_rate": {
+            "bootstrap_95ci": [
+              0.1438,
+              0.1638
+            ],
+            "mean": 0.1538
+          }
+        },
+        "retained_d24": {
+          "changed_only": {
+            "direction_counts": {
+              "improves": 601,
+              "same": 141,
+              "worse": 138
+            },
+            "harm_rate": {
+              "bootstrap_95ci": [
+                0.13295454545454546,
+                0.18181818181818182
+              ],
+              "mean": 0.15681818181818183
+            },
+            "n": 880,
+            "rate": 0.176,
+            "semantic_precision": {
+              "bootstrap_95ci": [
+                0.6522727272727272,
+                0.7136363636363636
+              ],
+              "mean": 0.6829545454545455
+            }
+          },
+          "direction_counts": {
+            "improves": 601,
+            "same": 4261,
+            "worse": 138
+          },
+          "direction_score": {
+            "bootstrap_95ci": [
+              0.0822,
+              0.103
+            ],
+            "mean": 0.0926
+          },
+          "fluency_0_to_4": {
+            "bootstrap_95ci": [
+              2.833,
+              2.8804
+            ],
+            "mean": 2.8566
+          },
+          "hallucination_rate": {
+            "bootstrap_95ci": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "improve_rate": {
+            "bootstrap_95ci": [
+              0.1114,
+              0.1294
+            ],
+            "mean": 0.1202
+          },
+          "meaning_preservation_0_to_4": {
+            "bootstrap_95ci": [
+              3.9126,
+              3.9332
+            ],
+            "mean": 3.923
+          },
+          "n": 5000,
+          "over_edit_rate": {
+            "bootstrap_95ci": [
+              0.0106,
+              0.017004999999999566
+            ],
+            "mean": 0.0138
+          },
+          "pearson_judge_direction_vs_char_delta": null,
+          "pearson_judge_direction_vs_likelihood_delta": null,
+          "preferred_rate": {
+            "bootstrap_95ci": [
+              0.139,
+              0.1588
+            ],
+            "mean": 0.1488
+          },
+          "target_equivalence_0_to_4": {
+            "bootstrap_95ci": [
+              2.4412,
+              2.49
+            ],
+            "mean": 2.4656
+          },
+          "worse_rate": {
+            "bootstrap_95ci": [
+              0.0232,
+              0.0322
+            ],
+            "mean": 0.0276
+          }
+        }
+      }
+    },
+    "gec_by_safe_policy_status": {}
+  },
+  "tasks": {
+    "controlled": {
+      "human_anchor": {
+        "changed_only": {
+          "direction_counts": {
+            "improves": 3866,
+            "same": 365,
+            "worse": 769
+          },
+          "harm_rate": {
+            "bootstrap_95ci": [
+              0.1438,
+              0.164
+            ],
+            "mean": 0.1538
+          },
+          "n": 5000,
+          "rate": 1.0,
+          "semantic_precision": {
+            "bootstrap_95ci": [
+              0.7614,
+              0.7848
+            ],
+            "mean": 0.7732
+          }
+        },
+        "direction_counts": {
+          "improves": 3866,
+          "same": 365,
+          "worse": 769
+        },
+        "direction_score": {
+          "bootstrap_95ci": [
+            0.5988,
+            0.6398
+          ],
+          "mean": 0.6194
+        },
+        "fluency_0_to_4": {
+          "bootstrap_95ci": [
+            3.6544,
+            3.6964
+          ],
+          "mean": 3.6756
+        },
+        "hallucination_rate": {
+          "bootstrap_95ci": [
+            0.008,
+            0.0138
+          ],
+          "mean": 0.0108
+        },
+        "improve_rate": {
+          "bootstrap_95ci": [
+            0.761595,
+            0.7848
+          ],
+          "mean": 0.7732
+        },
+        "meaning_preservation_0_to_4": {
+          "bootstrap_95ci": [
+            3.6848,
+            3.7268
+          ],
+          "mean": 3.706
+        },
+        "n": 5000,
+        "over_edit_rate": {
+          "bootstrap_95ci": [
+            0.1376,
+            0.1574
+          ],
+          "mean": 0.1474
+        },
+        "pearson_judge_direction_vs_char_delta": null,
+        "pearson_judge_direction_vs_likelihood_delta": null,
+        "preferred_rate": {
+          "bootstrap_95ci": [
+            0.6962,
+            0.7212
+          ],
+          "mean": 0.7088
+        },
+        "target_equivalence_0_to_4": {
+          "bootstrap_95ci": [
+            3.4274,
+            3.4842
+          ],
+          "mean": 3.456
+        },
+        "worse_rate": {
+          "bootstrap_95ci": [
+            0.1438,
+            0.164
+          ],
+          "mean": 0.1538
+        }
+      },
+      "retained_d24": {
+        "changed_only": {
+          "direction_counts": {
+            "improves": 601,
+            "same": 141,
+            "worse": 138
+          },
+          "harm_rate": {
+            "bootstrap_95ci": [
+              0.13295454545454546,
+              0.1806818181818182
+            ],
+            "mean": 0.15681818181818183
+          },
+          "n": 880,
+          "rate": 0.176,
+          "semantic_precision": {
+            "bootstrap_95ci": [
+              0.6522727272727272,
+              0.7136363636363636
+            ],
+            "mean": 0.6829545454545455
+          }
+        },
+        "direction_counts": {
+          "improves": 601,
+          "same": 4261,
+          "worse": 138
+        },
+        "direction_score": {
+          "bootstrap_95ci": [
+            0.0824,
+            0.103
+          ],
+          "mean": 0.0926
+        },
+        "fluency_0_to_4": {
+          "bootstrap_95ci": [
+            2.8328,
+            2.880404999999999
+          ],
+          "mean": 2.8566
+        },
+        "hallucination_rate": {
+          "bootstrap_95ci": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0
+        },
+        "improve_rate": {
+          "bootstrap_95ci": [
+            0.1112,
+            0.1292
+          ],
+          "mean": 0.1202
+        },
+        "meaning_preservation_0_to_4": {
+          "bootstrap_95ci": [
+            3.9124,
+            3.9332
+          ],
+          "mean": 3.923
+        },
+        "n": 5000,
+        "over_edit_rate": {
+          "bootstrap_95ci": [
+            0.0106,
+            0.0172
+          ],
+          "mean": 0.0138
+        },
+        "pearson_judge_direction_vs_char_delta": null,
+        "pearson_judge_direction_vs_likelihood_delta": null,
+        "preferred_rate": {
+          "bootstrap_95ci": [
+            0.139,
+            0.1588
+          ],
+          "mean": 0.1488
+        },
+        "target_equivalence_0_to_4": {
+          "bootstrap_95ci": [
+            2.4416,
+            2.49
+          ],
+          "mean": 2.4656
+        },
+        "worse_rate": {
+          "bootstrap_95ci": [
+            0.0232,
+            0.0322
+          ],
+          "mean": 0.0276
+        }
+      }
+    }
+  }
+}

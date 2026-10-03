@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "causal-edit-serialization"
+version = "0.1.0"
+description = "Causal Edit Serialization research implementation"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["torch==2.9.1", "numpy", "tiktoken>=0.11", "tokenizers>=0.22", "huggingface-hub", "requests", "filelock", "rich", "jinja2", "pandas", "pyarrow", "rustbpe"]
+[project.scripts]
+ces = "ces.cli:main"
+[project.optional-dependencies]
+train = [ "datasets>=4", "wandb", "psutil", "pyyaml", "kernels>=0.11.7"]
+eval = [ "datasets>=4", "rapidfuzz", "errant==3.0.2", "en-core-web-sm", "pyyaml", "transformers>=4.57.3"]
+report = ["matplotlib", "scipy", "reportlab"]
+dev = ["pytest", "build"]
+[tool.setuptools.packages.find]
+include = ["ces*", "nanochat*", "tasks*"]
+
+[tool.pytest.ini_options]
+markers = ["slow: expensive model or GPU tests"]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }

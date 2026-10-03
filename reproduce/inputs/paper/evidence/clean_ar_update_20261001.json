@@ -1,0 +1,17 @@
+{
+  "updated_depths": [
+    12,
+    18
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "retained_depth": 24,
+  "d24_status": "Existing archived values retained by author request pending H100 matched rerun; not evidence of a completed matched d24 run.",
+  "d24_rows_unchanged": true,
+  "source_table": "clean_ar_reference_runs.csv",
+  "d12_summary": "external/local/6024bb895506/results_summary.json",
+  "d18_summary": "external/local/f2e865c4d135/results_summary.json"
+}

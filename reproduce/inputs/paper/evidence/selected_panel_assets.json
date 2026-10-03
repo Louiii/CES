@@ -1,0 +1,107 @@
+{
+  "method_scaling_with_lengths.pdf": {
+    "source": "external/local/aa0d9231be03/method_scaling_with_lengths.pdf",
+    "sha256": "10ed464c34d8b9511b7c491acb2049c40e88bb5e22deca989db82d2a4ac53cbf",
+    "generator": "external/local/632d7dfc4668/build_method_scaling.py"
+  },
+  "ces_combined_schematic.pdf": {
+    "source": "external/local/dabd52d93f28/ces_figure1_readable.pdf",
+    "sha256": "5d1cc62cad34e240258a9219614e0cf1ea6e22887d89d97e0179412caad0d473",
+    "generator": "external/local/44acdb5e88a1/build_ces_figure.py",
+    "caption_source": "external/local/763ddd5e2480/methods.tex",
+    "build_command": "nanochat/.venv/bin/python paper/neurips_revised_results/figures/src/build_ces_figure.py --install"
+  },
+  "rl_filtered_unfiltered_with_examples_wrapped.pdf": {
+    "source": "external/local/a28445eb8094/rl_filtered_unfiltered_with_examples_wrapped.pdf",
+    "sha256": "93c1139f3aabaacbbcc3fdadbee370a0a83b7c4a53e05c0c00dfae54320b3ef1",
+    "caption_source": "external/local/ef07d056684b/rl_filtered_unfiltered_with_examples_wrapped.tex",
+    "generator": "external/local/77844be10ce0/build_rl_figure.py"
+  },
+  "dataset_distributions.pdf": {
+    "source": "external/local/62cf8c2a704e/dataset_distributions.pdf",
+    "sha256": "474479bc6b05e5bb086bc6b724de983465f3ca0b02ba49da20351bf74bd480c0",
+    "data": "external/local/1523c4ec75dd/dataset_distribution_stats.json",
+    "data_sha256": "f3650a34f923df8c2818911f99d6cb6973acfbf1f0ab5bb29cf80c3cf85b42f6",
+    "generator": "external/local/3abcea07b474/build_dataset_distributions.py",
+    "original_plot": "external/local/7b642d248488/edit_stats_comparison.png",
+    "original_plot_sha256": "10765fe49289235b09585ae1052b68743b9f411355233fdbde58e43a7a13173b"
+  },
+  "position_weight_sweep.pdf": {
+    "source": "external/local/0e0335cbcaf3/position_weight_sweep.pdf",
+    "sha256": "1bc890d87871c835965779249ed0cacfc2c1fcb4be8c49455511aaa499fd52c4",
+    "generator": "external/local/6d0c3e193314/build_position_weight.py",
+    "data": [
+      "external/local/8a22ed7e02ee/position_weight_raw.csv",
+      "external/local/48b44a995dbd/position_weight_summary.csv"
+    ],
+    "data_sha256": [
+      "ef876323e89abb6b1660631bb25b177234cec2010db8ed9b734742b59d625db6",
+      "9bf724964fab2aecdb1c45e7e33a811f41be6f5d351c771bf51e16e229fd92c7"
+    ],
+    "original_figure_sha256": "07f385884dfe9dbe0b39f8b74a0cf141a0d35c626ae39ac39a5df97f0a8c8710"
+  },
+  "dataset_type_sweep.pdf": {
+    "source": "external/local/20b38fe1ffc6/dataset_type_sweep.pdf",
+    "sha256": "a612b3e0ea069dd7152d76e47e2d49f205ede97bf0ea67d4dba17f542f3599b9",
+    "generator": "external/local/5f1f6b1546f2/build_dataset_type.py",
+    "data": [
+      "external/local/75c8a6d205e1/dataset_type_raw.csv",
+      "external/local/25238817cfc5/dataset_type_summary.csv"
+    ],
+    "data_sha256": [
+      "528d80e03daa7d1869d25004fd83e3f0f21af41d72bec17f6627d7a8c563231d",
+      "e708821b595d789a30e2485e0bee3ba6458f3de421c037ee60fb87647777fac7"
+    ],
+    "original_figure_sha256": "36fcd51bf42be23c431c0e8c5fcb13c0f88a5e0b379d37b039aa085287bd8c7e"
+  },
+  "rho_tradeoffs.pdf": {
+    "source": "external/local/fed6c7d23d80/rho_tradeoffs.pdf",
+    "sha256": "d10f63d0660bdfce96f6a8098b89ecf01f6d584e591304a3452aaf7f9015a0ae",
+    "generator": "external/local/4bf1fbdf7e80/build_rho_and_temperature.py",
+    "data": [
+      "external/local/2a7fdf35bdf4/rho_summary.json",
+      "external/local/96d8a72c6eb6/rho_runs.csv"
+    ],
+    "data_sha256": [
+      "a7e8fdf8fa12f7c9857c0333645a4084962ad1df8ce1a4033824a03e9a9963e7",
+      "f63a694a0beec73acb4e5458b6b4e2e58fd61a01e91930b066c56977722722ee"
+    ],
+    "original_figure_sha256": "85148cddda7d44416e36910f1cb2dd6299e46071830b8babca4ad2942af40607"
+  },
+  "sampling_policy_ces_scaling.pdf": {
+    "source": "external/local/70eccaa0b832/sampling_policy_ces_scaling.pdf",
+    "sha256": "5229884c4af5e0e323205cf3ae660ae03d4faf6faa2592eab5c99f3da895d1d4",
+    "generator": "external/local/4bf1fbdf7e80/build_rho_and_temperature.py",
+    "data": [
+      "external/local/b3bbd9043a17/ces_temperature_summary.json"
+    ],
+    "data_sha256": [
+      "730a53af383d7f10ea75d9442027967040e85e9da9eda7f76dff0cd19423d169"
+    ],
+    "original_figure_sha256": "b4dca6276deb3df848895ecaa5ca11c624727cf1a34fe46fe34a3152ea79f0ec"
+  },
+  "sampling_policy_depth24.pdf": {
+    "source": "external/local/64d465b990d1/sampling_policy_depth24.pdf",
+    "sha256": "d3f5079a4e14c6cd139f3582d113bcbe4ff298d6a05f2f31b0aa904f61284e48",
+    "generator": "external/local/8db7d4def375/build_policy_heatmaps.py",
+    "data": "external/local/aab22a76a254/depth24_policy_summary.json",
+    "data_sha256": "f7424e15f7ff5a58d360b10e8a2c9e4c506d423b71add47df8bd9284e1b6fd61",
+    "original_figure_sha256": "f16ec3feb3b60b483e33ae0ce0d5861b69504fef4602b0ce0da9e0705dd255dc"
+  },
+  "post_edit_tail_overview.pdf": {
+    "source": "external/local/3984a7cea92c/post_edit_tail_overview.pdf",
+    "sha256": "a69e0838ad4772bcd8eaa9a5789bec476a4a539c9e9cf8bbfeef206dcac211da",
+    "generator": "external/local/75db0485340f/build_continuation.py",
+    "data": "external/local/e030bb0eda64/continuation_figure_data.json",
+    "data_sha256": "14567096e734241ea45ceaf9a65f264f01803f0017f76385d54df2a767228f8f",
+    "original_figure_sha256": "a1b04209d59413ca714f6ada0c0cac13e3552dc2b01880b894ed1a1ed4cc7644"
+  },
+  "post_edit_tail_by_position.pdf": {
+    "source": "external/local/689255115362/post_edit_tail_by_position.pdf",
+    "sha256": "27b458f7c390d8c7fbe71643e3ff39d9ca65075f34fd6edcf35069a1006ea2c4",
+    "generator": "external/local/75db0485340f/build_continuation.py",
+    "data": "external/local/e030bb0eda64/continuation_figure_data.json",
+    "data_sha256": "14567096e734241ea45ceaf9a65f264f01803f0017f76385d54df2a767228f8f",
+    "original_figure_sha256": "9557aa26ec186274e0876b4ca67daa83ad032a40f8be81ece033d44c3cd12edc"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "workflow": "human_edit_eval",
+  "arguments": [
+    "--model-tag",
+    "${CES_ARTIFACTS}/checkpoints/rl-posttraining/ces/d24/posttrain-seed-42",
+    "--step",
+    "200",
+    "--manifest-jsonl",
+    "${CES_ARTIFACTS}/data/evaluations/coedit-gec-v1/confirmation.jsonl",
+    "--eval",
+    "generate",
+    "--max-edit-tokens",
+    "96",
+    "--num-samples",
+    "1",
+    "--temperature",
+    "0",
+    "--pointer-temperature",
+    "0",
+    "--max-payload-tokens",
+    "32",
+    "--max-edit-ops",
+    "4",
+    "--device-type",
+    "cuda",
+    "--output-json",
+    "${CES_RUNS}/confirmation-plain-greedy/summary.json",
+    "--output-records-jsonl",
+    "${CES_RUNS}/confirmation-plain-greedy/records.jsonl"
+  ],
+  "environment": {
+    "NANOCHAT_BASE_DIR": "${CES_RUNTIME}"
+  },
+  "note": "Generation only; saved judge decisions are separate. Never apply selective filters to the unfiltered greedy condition."
+}

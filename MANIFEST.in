@@ -1,0 +1,7 @@
+include .gitignore README.md LICENSE provenance.json uv.lock
+recursive-include configs *.json
+recursive-include docs *.md *.json
+recursive-include examples *.jsonl
+recursive-include tests *.py
+recursive-include reproduce *.py *.md *.csv *.json *.jsonl *.tex
+prune reproduce/output

@@ -1,0 +1,57 @@
+{
+  "source": "results/methods-sweep/seed-m42-d1234/ces/d24/coedit-finetuned/gec_records.jsonl",
+  "source_sha256": "775e2703bf19be789bdd0cb81e5df371220cd1b2853e443cc39b21e0df704ae9",
+  "tokenizer_sha256": "9ad2b2dbad95b16713c2e91cc6bbacc6de66fc29bdd2ba8d296ac1d6b2fc997c",
+  "aggregate": {
+    "ces": {
+      "reference_tokens": 59.51958762886598,
+      "conditioning_tokens": 57.156701030927834,
+      "n": 485,
+      "definition": "Complete canonical CES program, including EDIT_START and EDIT_END"
+    },
+    "pretrained_ces": {
+      "reference_tokens": 59.51958762886598,
+      "conditioning_tokens": 57.156701030927834,
+      "n": 485,
+      "definition": "Same CES serialization; adaptation changes weights, not format"
+    },
+    "ar_dsl": {
+      "reference_tokens": 106.82474226804123,
+      "conditioning_tokens": 56.156701030927834,
+      "n": 485,
+      "definition": "Complete textual edit program, including script delimiters"
+    },
+    "flat_relative": {
+      "reference_tokens": 125.42680412371134,
+      "conditioning_tokens": 56.156701030927834,
+      "n": 485,
+      "definition": "Complete edit program with single-token relative coordinates"
+    },
+    "regeneration": {
+      "reference_tokens": 55.97731958762886,
+      "conditioning_tokens": 76.15670103092783,
+      "n": 485,
+      "definition": "Complete target plus terminator"
+    },
+    "fim": {
+      "reference_tokens": 48.670103092783506,
+      "conditioning_tokens": 31.30721649484536,
+      "n": 485,
+      "definition": "Gold changed envelope plus terminator; predicted FIM assumes correct localization"
+    },
+    "fim_predicted": {
+      "reference_tokens": 48.670103092783506,
+      "conditioning_tokens": 102.4639175257732,
+      "n": 485,
+      "definition": "Gold changed envelope plus terminator; predicted FIM assumes correct localization"
+    },
+    "levenshtein": {
+      "reference_tokens": 56.97731958762886,
+      "conditioning_tokens": 57.156701030927834,
+      "n": 485,
+      "definition": "Target sequence with boundaries only; not an autoregressive program or refinement-work count"
+    }
+  },
+  "roundtrip_checks": "CES, AR-DSL, flat-relative and all regeneration/FIM references resolve to the same target text; 485/485 each",
+  "accounting": "Full reference output representation, including its own delimiters; source/prompt excluded. Observed decode counts exclude prefilled controls and are a separate quantity."
+}

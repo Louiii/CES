@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+artifacts/
+runs/
+runtime/
+reproduce/output/
+reproduce/inputs/discussion/*.png
+
+# Local environments, caches and developer credentials
+venv/
+.env
+.env.*
+!.env.example
+.cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+.DS_Store
+
+# Local artifacts and release preparation belong outside the code release
+checkpoints/
+data/
+logs/
+outputs/
+reports/
+*.pt
+*.pth
+*.safetensors
+*.parquet

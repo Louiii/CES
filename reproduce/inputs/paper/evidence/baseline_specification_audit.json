@@ -1,0 +1,103 @@
+{
+  "source_text": "She walk to school.",
+  "target_text": "She walks to school.",
+  "source_tokens": [
+    [
+      0,
+      "<|bos|>"
+    ],
+    [
+      1,
+      "She"
+    ],
+    [
+      2,
+      " walk"
+    ],
+    [
+      3,
+      " to"
+    ],
+    [
+      4,
+      " school"
+    ],
+    [
+      5,
+      "."
+    ]
+  ],
+  "ar_dsl": "<edit-script>\nR 2 3 \" walks\"\n</edit-script>",
+  "flat_relative": "\n<edit-script>\nR <|back_0012|> <|back_0013|> \" walks\"\n</edit-script>\n",
+  "ces_serialized_tokens_and_addresses": [
+    [
+      "<|indel-bos|>",
+      0
+    ],
+    [
+      "<|bos|>",
+      1
+    ],
+    [
+      "She",
+      2
+    ],
+    [
+      " walk",
+      3
+    ],
+    [
+      " to",
+      4
+    ],
+    [
+      " school",
+      5
+    ],
+    [
+      ".",
+      6
+    ],
+    [
+      "<|edit-start|>",
+      7
+    ],
+    [
+      "<|replace-open|>",
+      8
+    ],
+    [
+      "<|replace-start|>",
+      3
+    ],
+    [
+      "<|replace-end|>",
+      3
+    ],
+    [
+      " walks",
+      3
+    ],
+    [
+      "<|replace-eos|>",
+      12
+    ],
+    [
+      "<|edit-end|>",
+      13
+    ]
+  ],
+  "roundtrips": "CES, AR-DSL, flat-relative, regeneration, oracle FIM and predicted FIM successful-target encodings all reconstruct the same target. Iterative example is illustrative decisions, not an executed model output.",
+  "inspected_implementation_sha256": {
+    "nanochat/nanochat/edit_dsl.py": "c42796f9ef6fc4108ddd43bcef942b327b9fac2daf2d79a35341f629dcbdd6f9",
+    "nanochat/nanochat/flat_relative_dsl.py": "138b5a3c1aa71e5bfba4fee7c24babca3cfb7f35193c05199392f81af277761a",
+    "nanochat/nanochat/text_edit_baselines.py": "0b28cd79faaa402be93ae37ab797618490997c4e15aff2c1df5b3e9ec28d5c63",
+    "nanochat/nanochat/predicted_fim.py": "3d5b25f8a082c6009040af72a56ee90f0b2f5f05b7229198cb7a8d2451dc0cfa",
+    "nanochat/nanochat/levenshtein.py": "f5266295741ca20da9cfe98434dc84a32f3dadbb14326c6cf6712c34a205cf0e",
+    "nanochat/nanochat/edit_dataset.py": "11e0146efc9c0db25fdaac6e81fc1cfed0e1e9157127329a38acc33df2d810f9",
+    "nanochat/scripts/controlled_edit_eval.py": "86d1841e4606020fd2c98a4a4e68e6f5838a70181a3ba176d82ee514f9d1ff5f",
+    "nanochat/scripts/autoregressive_edit_eval.py": "31f8b3ccebbf16bda838d251d29ff93ce83f772b0f98cb1b74d9e456b8268f12",
+    "nanochat/scripts/text_edit_baseline_eval.py": "c26e41740215a7c12bf0622db72fddfd052d612d181dfb4445338e58297b0864",
+    "nanochat/scripts/eval_iterative_levenshtein.py": "953aa6b1aa9db1cbfe23a716d887c0528c3d230ff78d998383725f919cbebcb0"
+  }
+}

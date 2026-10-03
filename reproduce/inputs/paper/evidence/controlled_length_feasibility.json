@@ -1,0 +1,93 @@
+{
+  "conclusion": "All eight methods have retained pretrained d24 seed-42 controlled records. A common 250-example intersection is available. No new model inference is needed to measure retained observed streams; native terminator accounting still needs standardization. Reference and optimized-program bars need CPU recomputation and round-trip checks. Current Figure 2G is unchanged.",
+  "common_n": 250,
+  "methods": {
+    "ces": {
+      "path": "results/methods-sweep/seed-m42-d1234/ces/d24/pretrained/records.jsonl",
+      "sha256": "caf54485e7d43356e0afb212eca51b58cd9860cb6bf75107a15e37c8c1b6429c",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_program_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 21.996
+    },
+    "ar-dsl": {
+      "path": "results/methods-sweep/seed-m42-d1234/ar-dsl/d24/pretrained/records.jsonl",
+      "sha256": "b8ba1bcbc254b4d8cdbd2f7808a2b3136bcc7d3099921dcf314e387179191d86",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_program_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 125.572
+    },
+    "flat-relative": {
+      "path": "results/methods-sweep/seed-m42-d1234/flat-relative/d24/pretrained/records.jsonl",
+      "sha256": "5aec6b06d9ed14db714d36e469e8b692aaa302b2c6cac1a3250aaddc6dbaed31",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_program_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 163.012
+    },
+    "regeneration": {
+      "path": "results/methods-sweep/seed-m42-d1234/regeneration/d24/pretrained/records.jsonl",
+      "sha256": "92c80648d5a4d16c0c4d80db97d1152dc32342552b41525d7ff7b5ccb57995c0",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_completion_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 583.736
+    },
+    "oracle-span-fim": {
+      "path": "results/methods-sweep/seed-m42-d1234/oracle-span-fim/d24/pretrained/records.jsonl",
+      "sha256": "390ec116bc110b07a3982aa6c9e90287f6f7ce186f35d8f6024de9eebfe1e7ba",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_completion_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 598.724
+    },
+    "predicted-span-fim": {
+      "path": "results/methods-sweep/seed-m42-d1234/predicted-span-fim/d24/pretrained/records.jsonl",
+      "sha256": "461ab1a0e881375073a8a3149d0470cbe35cafb4ea8ec7dd5b26642c86d7df0f",
+      "n": 1000,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_completion_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 157.248
+    },
+    "iterative-levenshtein": {
+      "path": "results/methods-sweep/seed-m42-d1234/iterative-levenshtein/d24/pretrained/records.jsonl",
+      "sha256": "9a06592bbfc2ceeb929d63e7733106bea8fd6af2a8e112ad459d772155523fe5",
+      "n": 1000,
+      "length_fields": [
+        "rounds",
+        "encoder_passes",
+        "inserted"
+      ]
+    },
+    "adapted-ces": {
+      "path": "results/methods-sweep/seed-m42-d1234/adapted-ces/d24/pretrained/controlled.jsonl",
+      "sha256": "f725a4290a654e5fa9fc983b4bf0b6523431f534c3e2dde5a623ac464a705536",
+      "n": 250,
+      "length_fields": [
+        "prompt_tokens",
+        "generated_full_tokens",
+        "generated_program_tokens"
+      ],
+      "common_250_mean_retained_new_tokens": 25.036
+    }
+  }
+}

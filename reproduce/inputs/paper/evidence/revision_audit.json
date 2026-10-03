@@ -1,0 +1,172 @@
+{
+  "identity_cases": 5000,
+  "all_identity_inputs_equal_recorded_targets": true,
+  "coedit": {
+    "examples": 5000,
+    "changed": 880,
+    "status_counts": {
+      "valid_rejected_resolved_span": 644,
+      "valid_rejected_program_confidence": 2646,
+      "valid": 1651,
+      "valid_rejected_resolved_regions": 59
+    },
+    "generation_config": {
+      "accept_if_ar_logprob_improves": false,
+      "accept_program_mean_logprob_min": -0.6,
+      "accept_resolved_max_chars": 4,
+      "accept_resolved_max_regions": 1,
+      "accept_resolved_signature": null,
+      "acceptance_logprob_margin": 0.0,
+      "closure_bias": 0.0,
+      "closure_bias_min_payload_tokens": 0,
+      "confidence_temperature": 1.0,
+      "first_decision_edit_threshold": 0.5,
+      "max_edit_ops": 4,
+      "max_edit_tokens": 96,
+      "max_payload_tokens": 32,
+      "num_samples": 1,
+      "pointer_temperature": 0.0,
+      "score_candidate_likelihood": false,
+      "score_program_confidence": false,
+      "stop_after_edit_end": true,
+      "temperature": 0.0,
+      "top_k": null,
+      "top_p": null
+    }
+  },
+  "identity": {
+    "examples": 5000,
+    "changed": 74,
+    "status_counts": {
+      "valid_rejected_program_confidence": 2966,
+      "valid": 1816,
+      "valid_rejected_resolved_span": 209,
+      "valid_rejected_resolved_regions": 9
+    },
+    "generation_config": {
+      "accept_if_ar_logprob_improves": false,
+      "accept_program_mean_logprob_min": -0.6,
+      "accept_resolved_max_chars": 4,
+      "accept_resolved_max_regions": 1,
+      "accept_resolved_signature": null,
+      "acceptance_logprob_margin": 0.0,
+      "closure_bias": 0.0,
+      "closure_bias_min_payload_tokens": 0,
+      "confidence_temperature": 1.0,
+      "first_decision_edit_threshold": 0.5,
+      "max_edit_ops": 4,
+      "max_edit_tokens": 96,
+      "max_payload_tokens": 32,
+      "num_samples": 1,
+      "pointer_temperature": 0.0,
+      "score_candidate_likelihood": false,
+      "score_program_confidence": false,
+      "stop_after_edit_end": true,
+      "temperature": 0.0,
+      "top_k": null,
+      "top_p": null
+    }
+  },
+  "judge": {
+    "model": "gpt-5-mini-2025-08-07",
+    "bootstrap_samples": 20000,
+    "bootstrap_seed": 42,
+    "results": {
+      "human_anchor": {
+        "n": 5000,
+        "direction_counts": {
+          "improves": 3866,
+          "same": 365,
+          "worse": 769
+        },
+        "direction_score": {
+          "bootstrap_95ci": [
+            0.5988,
+            0.6398
+          ],
+          "mean": 0.6194
+        },
+        "changed_only": {
+          "direction_counts": {
+            "improves": 3866,
+            "same": 365,
+            "worse": 769
+          },
+          "harm_rate": {
+            "bootstrap_95ci": [
+              0.1438,
+              0.164
+            ],
+            "mean": 0.1538
+          },
+          "n": 5000,
+          "rate": 1.0,
+          "semantic_precision": {
+            "bootstrap_95ci": [
+              0.7614,
+              0.7848
+            ],
+            "mean": 0.7732
+          }
+        }
+      },
+      "retained_d24": {
+        "n": 5000,
+        "direction_counts": {
+          "improves": 601,
+          "same": 4261,
+          "worse": 138
+        },
+        "direction_score": {
+          "bootstrap_95ci": [
+            0.0824,
+            0.103
+          ],
+          "mean": 0.0926
+        },
+        "changed_only": {
+          "direction_counts": {
+            "improves": 601,
+            "same": 141,
+            "worse": 138
+          },
+          "harm_rate": {
+            "bootstrap_95ci": [
+              0.13295454545454546,
+              0.1806818181818182
+            ],
+            "mean": 0.15681818181818183
+          },
+          "n": 880,
+          "rate": 0.176,
+          "semantic_precision": {
+            "bootstrap_95ci": [
+              0.6522727272727272,
+              0.7136363636363636
+            ],
+            "mean": 0.6829545454545455
+          }
+        }
+      }
+    }
+  },
+  "original_manuscript_sha256": {
+    "paper/neurips_2026.tex": "d1b1463600cc6ae5412494ee22751e4bd45a9d738705bdd778f1f4796928d2b6",
+    "paper/neurips_2026.pdf": "e42a09064c53a1396bd88b912870fdac76f71264d9a38b4fa63f3d9435753610",
+    "paper/references.bib": "645e9033fc7711f62a9d0b10afa70feee2f1ac7fbf8381873a25b06270fcdec3",
+    "paper/checklist.tex": "20ebbcbcaa3680bcd82f6cf5b0934309ff509525087a7a081f682b75946af6ed",
+    "paper/sections/abstract.tex": "244eba3647f154f3fedc55df0214c6fffb19104ddddee550519115450d131027",
+    "paper/sections/acknowledgements.tex": "dd6038f6dd1b6798c1c17ba06d384a024d043426dbe8c8fb0b600c596dd86d8d",
+    "paper/sections/appendix.tex": "fda0c807d8c1c89c282ed8ae1ec490235cd982fa351c58d4e6f620dbd7e68d9c",
+    "paper/sections/conclusion.tex": "d952731daa61a095214678179683618b5c8b5cbf43bcc3d1201718a3069dfccd",
+    "paper/sections/future_work.tex": "d6b37df882068f477bfeef72ee110338c39ebf99f3f08c9ea982c1782cec1d56",
+    "paper/sections/impact.tex": "27499feef57fbdd9e776aec212c11db4afc03babbcb632ab2aa390c7751879d0",
+    "paper/sections/intro.tex": "48047e908bf346144241ee97d7d33c04a67c05485d46bc600c81a03fde1ad111",
+    "paper/sections/limitations.tex": "4dde5874468a3a9be89d06f2a8fcda489aea9d1961305b1d9bb96968b4b06e78",
+    "paper/sections/methods.tex": "6e323a87f5ada94081f88c12367f3c12f6bbece99f586c4e283de4d0ebd65364",
+    "paper/sections/related_work.tex": "5bb3083fad3c4bffca980662fa1d42d9e55164b843215ece0acb048df271f774",
+    "paper/sections/results.tex": "cb2fb5bdf010554a167cd1255eca7658b5e787b3b7d8865232493b3f5ef78627",
+    "paper/sections/software.tex": "2746a747699268eff4f8f5a83b3079c7f8c69b410fed5c22d3b443f294c9d743"
+  },
+  "checked_on": "2026-09-12"
+}

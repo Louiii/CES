@@ -1,0 +1,26 @@
+{
+  "CES_prompt": 58.156701030927834,
+  "regeneration_prompt": 76.15670103092783,
+  "depths": [
+    12,
+    18,
+    24
+  ],
+  "CES_contexts": [
+    65.5979381443299,
+    63.88797250859106,
+    63.802061855670104
+  ],
+  "regeneration_contexts": [
+    114.81993127147766,
+    125.78694158075601,
+    126.64467353951889
+  ],
+  "regeneration_live_KV_MiB": [
+    4.036638208762886,
+    9.94994362113402,
+    17.809407216494844
+  ],
+  "source": "output/paper_discussion/dashboard_data/output_lengths_audited.json; reference_lengths.json",
+  "note": "Three-seed observed output means; prefilled EDIT_START included in CES prompt. Timing and allocated budgets unchanged."
+}

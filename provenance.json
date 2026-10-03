@@ -1,0 +1,462 @@
+{
+  "source_commit": "ca6924bcb0788ae212390e5c96d31f7e3a64b9bd",
+  "files": [
+    {
+      "source": "scripts/analyze_post_edit_tail_likelihood.py",
+      "destination": "ces/workflows/analyze_post_edit_tail_likelihood.py",
+      "changed": false,
+      "source_sha256": "c8e3436c76483a460a742dc3356e4d0653fcf28cc048c9d38f0d422d5f69ce9d",
+      "release_sha256": "c8e3436c76483a460a742dc3356e4d0653fcf28cc048c9d38f0d422d5f69ce9d"
+    },
+    {
+      "source": "scripts/ar_dsl_human_edit_eval.py",
+      "destination": "ces/workflows/ar_dsl_human_edit_eval.py",
+      "changed": true,
+      "source_sha256": "8d4f2f4bb348435b08354d78339fd78d45b36309a04671da529dffef767f0473",
+      "release_sha256": "12d715283f5034650ee035f9d26d616f7f506ab74973bbafdc85bc5557d96626"
+    },
+    {
+      "source": "scripts/autoregressive_edit_eval.py",
+      "destination": "ces/workflows/autoregressive_edit_eval.py",
+      "changed": true,
+      "source_sha256": "31f8b3ccebbf16bda838d251d29ff93ce83f772b0f98cb1b74d9e456b8268f12",
+      "release_sha256": "2665d2a22b57049c70a4880d8768b16929690fb76a8d6785adae17d2b65cf9df"
+    },
+    {
+      "source": "scripts/base_eval.py",
+      "destination": "ces/workflows/base_eval.py",
+      "changed": true,
+      "source_sha256": "d67750d13caed19458babcf85ac36f16a9388c5d93d2df53728dc4523af0cd52",
+      "release_sha256": "1d22abc0f697b6e4ac77bcf8bb98b889d9eac6b8a8ef3f2861d34fec142ca817"
+    },
+    {
+      "source": "scripts/base_train.py",
+      "destination": "ces/workflows/base_train.py",
+      "changed": true,
+      "source_sha256": "5d9081beb8a2010ce243d54f5fff986967c1371b2c0ace5d8272aa8373a6b35e",
+      "release_sha256": "c6936f2848f0626f6b4e69d97dacdb7ad44f811a68628da0166f2004a0ca8ff6"
+    },
+    {
+      "source": "scripts/benchmark_optimized_inference.py",
+      "destination": "ces/workflows/benchmark_optimized_inference.py",
+      "changed": true,
+      "source_sha256": "1f9c9f7736b566896ac756bdfe12228d5f5665256ae3fc5746d6b2822732ae02",
+      "release_sha256": "018dab7806f2f759bea3ce30261f1cc75cd7a0a2a6b1782babcc5eae9e110840"
+    },
+    {
+      "source": "scripts/benchmark_tokenization.py",
+      "destination": "ces/workflows/benchmark_tokenization.py",
+      "changed": false,
+      "source_sha256": "a71a76d39fe485b5893c248a5e848a143673592b5cba3989c13282fab348394b",
+      "release_sha256": "a71a76d39fe485b5893c248a5e848a143673592b5cba3989c13282fab348394b"
+    },
+    {
+      "source": "scripts/build_coedit_gec_benchmark.py",
+      "destination": "ces/workflows/build_coedit_gec_benchmark.py",
+      "changed": false,
+      "source_sha256": "0a2794c3b8b0ed92d6a2eef36421b22664c7bf9b3866be9556d1befd549dcbd7",
+      "release_sha256": "0a2794c3b8b0ed92d6a2eef36421b22664c7bf9b3866be9556d1befd549dcbd7"
+    },
+    {
+      "source": "scripts/build_coedit_gec_transfer.py",
+      "destination": "ces/workflows/build_coedit_gec_transfer.py",
+      "changed": true,
+      "source_sha256": "9a4220e80dad467338fabac6d5eeee27ec3ebad4653cc7bd54adb3ffe220ed26",
+      "release_sha256": "f83a4193ebfe6642550a6231cc509139f95fb0f2ab1cce84693c3f2bd5117884"
+    },
+    {
+      "source": "scripts/build_controlled_edit_benchmark.py",
+      "destination": "ces/workflows/build_controlled_edit_benchmark.py",
+      "changed": false,
+      "source_sha256": "6abc0daf85c2e023b4ff36816b42739e7ae378a40f64cd9d2e71e3b60dc6db2e",
+      "release_sha256": "6abc0daf85c2e023b4ff36816b42739e7ae378a40f64cd9d2e71e3b60dc6db2e"
+    },
+    {
+      "source": "scripts/build_identity_edit_manifest.py",
+      "destination": "ces/workflows/build_identity_edit_manifest.py",
+      "changed": false,
+      "source_sha256": "cd75439f6df1d12743ed322fea3d6d76c47113f9120eace899ad488ed63611fc",
+      "release_sha256": "cd75439f6df1d12743ed322fea3d6d76c47113f9120eace899ad488ed63611fc"
+    },
+    {
+      "source": "scripts/build_manifest_ces_training_corpus.py",
+      "destination": "ces/workflows/build_manifest_ces_training_corpus.py",
+      "changed": false,
+      "source_sha256": "b2209929f4f426fcfafe3c0f0d1c0b3d47ddb1c4a87df408fc7ebf9680f25410",
+      "release_sha256": "b2209929f4f426fcfafe3c0f0d1c0b3d47ddb1c4a87df408fc7ebf9680f25410"
+    },
+    {
+      "source": "scripts/ces_balanced_sft.py",
+      "destination": "ces/workflows/ces_balanced_sft.py",
+      "changed": true,
+      "source_sha256": "e3ee930effaf514ca1c9dcee3bea6bd29def5f8b584b6ab85f5e523b56f13de3",
+      "release_sha256": "393e08eb09d81b781b61557aa5ae28476dc5580988f18edd47e583d478796c7b"
+    },
+    {
+      "source": "scripts/ces_cache_timing.py",
+      "destination": "ces/workflows/ces_cache_timing.py",
+      "changed": true,
+      "source_sha256": "5632d7d37055b295736f91d42c70800c05ca0f0ff1fb1c121c80d5467f1eb426",
+      "release_sha256": "40f18edb0f0185c1492eddc5e07860f1d699964a133a78e43a0c099354c12a65"
+    },
+    {
+      "source": "scripts/ces_rl.py",
+      "destination": "ces/workflows/ces_rl.py",
+      "changed": true,
+      "source_sha256": "47ed8dc5c148c2cc2f2b019230572c2b74e38388b9cccfdda6304f8d336bd97f",
+      "release_sha256": "987b5081f108b0c6a993bf48690a1f6b08de38b01236cb0caa7ac34bef555e14"
+    },
+    {
+      "source": "scripts/ces_sft.py",
+      "destination": "ces/workflows/ces_sft.py",
+      "changed": true,
+      "source_sha256": "9c65f202799b4e944688f19f0da70d8d7da17780e2140b83ef0409fb800bf039",
+      "release_sha256": "facc2f07cdf05baadad6ef352674dec765887975975acf94523fc057939e8c60"
+    },
+    {
+      "source": "scripts/controlled_edit_eval.py",
+      "destination": "ces/workflows/controlled_edit_eval.py",
+      "changed": true,
+      "source_sha256": "d8b0be294fbecf9768ad3ac1f6839a6156822112a248ed1229176fdbc5753dba",
+      "release_sha256": "7dcbfd90e474e803a9c69405e4c669563b655db9395e531e68363d5f7b72fe43"
+    },
+    {
+      "source": "scripts/eval_iterative_levenshtein.py",
+      "destination": "ces/workflows/eval_iterative_levenshtein.py",
+      "changed": false,
+      "source_sha256": "953aa6b1aa9db1cbfe23a716d887c0528c3d230ff78d998383725f919cbebcb0",
+      "release_sha256": "953aa6b1aa9db1cbfe23a716d887c0528c3d230ff78d998383725f919cbebcb0"
+    },
+    {
+      "source": "scripts/filter_gec_posttrain_edits.py",
+      "destination": "ces/workflows/filter_gec_posttrain_edits.py",
+      "changed": false,
+      "source_sha256": "a37167eda4349e9f48b0eff52cfa07844f1ba597218d48bbcfdbb3b065c553b1",
+      "release_sha256": "a37167eda4349e9f48b0eff52cfa07844f1ba597218d48bbcfdbb3b065c553b1"
+    },
+    {
+      "source": "scripts/human_edit_eval.py",
+      "destination": "ces/workflows/human_edit_eval.py",
+      "changed": true,
+      "source_sha256": "f389896a31c4e8a4dbc39f22ffc27f265a8385ba75c99463fd02c45e4146e883",
+      "release_sha256": "265b25e5f3b5b05f5f0bbf635bcff6ff31312328f828f4d640842226477972be"
+    },
+    {
+      "source": "scripts/method_gec_eval.py",
+      "destination": "ces/workflows/method_gec_eval.py",
+      "changed": true,
+      "source_sha256": "ee86d870212d0b4c9336df633c4800f803fe1096f37f4bc5d7f5052411da9c09",
+      "release_sha256": "0360167ee45f9de1be3a5c06280eae00d166cacf8c111cc831562d24c9132551"
+    },
+    {
+      "source": "scripts/oracle_ces_eval.py",
+      "destination": "ces/workflows/oracle_ces_eval.py",
+      "changed": true,
+      "source_sha256": "ce40184878f0d33521679234ac06aeea5f0348730076047a9f94b346b5a797b0",
+      "release_sha256": "b63f5f0e124670210abfaae1b7ea16ce0ea86570c9f5ab6bf692973fc3378b7e"
+    },
+    {
+      "source": "scripts/oracle_gec_edit_likelihood.py",
+      "destination": "ces/workflows/oracle_gec_edit_likelihood.py",
+      "changed": false,
+      "source_sha256": "cde0f83cda5e1415488711faf459f2b739aead2f1abab6b4a4992e3435a394e6",
+      "release_sha256": "cde0f83cda5e1415488711faf459f2b739aead2f1abab6b4a4992e3435a394e6"
+    },
+    {
+      "source": "scripts/post_edit_tail_likelihood.py",
+      "destination": "ces/workflows/post_edit_tail_likelihood.py",
+      "changed": true,
+      "source_sha256": "4a6b3f650aed11bfa41a44b3b2c38d1d49879ef2e110b4ccf1c6a570aecaa063",
+      "release_sha256": "079502456171a93c466340c5058ca96752771013e5b79a6825368dc211af8e8d"
+    },
+    {
+      "source": "scripts/prepare_gec_posttrain_sources.py",
+      "destination": "ces/workflows/prepare_gec_posttrain_sources.py",
+      "changed": false,
+      "source_sha256": "78956b8d63927fdc2bd7a28faadb376149243ca21bf21a3c9c8f8b6e1e779a7b",
+      "release_sha256": "78956b8d63927fdc2bd7a28faadb376149243ca21bf21a3c9c8f8b6e1e779a7b"
+    },
+    {
+      "source": "scripts/score_controlled_edit_records.py",
+      "destination": "ces/workflows/score_controlled_edit_records.py",
+      "changed": true,
+      "source_sha256": "6bf299bcd317e98b624fbff7f693faeebcfb1208f82955da7d74ffe5d60510c7",
+      "release_sha256": "e6bc0a4ab7f294a4aff0f4eecf6906bbe62bf85bb712c5ee9bb5f713211b4cc3"
+    },
+    {
+      "source": "scripts/score_gec_records.py",
+      "destination": "ces/workflows/score_gec_records.py",
+      "changed": false,
+      "source_sha256": "88343cd640670c1f60df064c454efcb3864de174da5d0b45532fdaec7e2a9aca",
+      "release_sha256": "88343cd640670c1f60df064c454efcb3864de174da5d0b45532fdaec7e2a9aca"
+    },
+    {
+      "source": "scripts/seed_finetune_checkpoint.py",
+      "destination": "ces/workflows/seed_finetune_checkpoint.py",
+      "changed": false,
+      "source_sha256": "8e5d1d345ed03e3ad2502e88b96c4432470da6e978bfcb0b7a7357c1d36b5050",
+      "release_sha256": "8e5d1d345ed03e3ad2502e88b96c4432470da6e978bfcb0b7a7357c1d36b5050"
+    },
+    {
+      "source": "scripts/text_edit_baseline_eval.py",
+      "destination": "ces/workflows/text_edit_baseline_eval.py",
+      "changed": true,
+      "source_sha256": "c26e41740215a7c12bf0622db72fddfd052d612d181dfb4445338e58297b0864",
+      "release_sha256": "d7f0a02ce380ac9418f75898972ade5372bd9385f23ff30eb170f2da73de6cf8"
+    },
+    {
+      "source": "scripts/train_iterative_levenshtein.py",
+      "destination": "ces/workflows/train_iterative_levenshtein.py",
+      "changed": false,
+      "source_sha256": "75011ca604783925b9726504b572f6923cca26ec7430e47e7845fb37244d3f62",
+      "release_sha256": "75011ca604783925b9726504b572f6923cca26ec7430e47e7845fb37244d3f62"
+    },
+    {
+      "source": "nanochat/__init__.py",
+      "destination": "nanochat/__init__.py",
+      "changed": true,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "nanochat/causal_serialisation.py",
+      "destination": "nanochat/causal_serialisation.py",
+      "changed": true,
+      "source_sha256": "383cf276182a183024df50b15e498620adf45ddb4fe88aaf2ea9817584e90fc7",
+      "release_sha256": "cb502a5ebfb8058736b50a0748b57fd13d772ad0233fc0972a2db72f0eab5ff7"
+    },
+    {
+      "source": "nanochat/causal_serialisation_extended.py",
+      "destination": "nanochat/causal_serialisation_extended.py",
+      "changed": true,
+      "source_sha256": "f39d3a94554a45b199e7ffb0690524c9a14300ce3662065e8f06ef7cd5ea3a8d",
+      "release_sha256": "6855b067ad0c10f8b220996f39c4e73f6d4fdcedb6b2f7a17c722cf79f1ed97c"
+    },
+    {
+      "source": "nanochat/ces_rl.py",
+      "destination": "nanochat/ces_rl.py",
+      "changed": false,
+      "source_sha256": "f8dea54ca9be3432b54b98682d699f99b14955637658d27fe7166a727761ee61",
+      "release_sha256": "f8dea54ca9be3432b54b98682d699f99b14955637658d27fe7166a727761ee61"
+    },
+    {
+      "source": "nanochat/checkpoint_manager.py",
+      "destination": "nanochat/checkpoint_manager.py",
+      "changed": false,
+      "source_sha256": "7d12fe0b4086616f4e3abf8568c0f992a103dde0a56524617bb7a67f08396b0a",
+      "release_sha256": "7d12fe0b4086616f4e3abf8568c0f992a103dde0a56524617bb7a67f08396b0a"
+    },
+    {
+      "source": "nanochat/common.py",
+      "destination": "nanochat/common.py",
+      "changed": false,
+      "source_sha256": "150b980a0dfb3602e4426a1a6fc972488ea689453c62cc61aab1f8335e06fcf4",
+      "release_sha256": "150b980a0dfb3602e4426a1a6fc972488ea689453c62cc61aab1f8335e06fcf4"
+    },
+    {
+      "source": "nanochat/core_eval.py",
+      "destination": "nanochat/core_eval.py",
+      "changed": false,
+      "source_sha256": "9303997ff17fa48ad5e5730f33b7e79a687cc2a1fdad928666bb63dc3514c51d",
+      "release_sha256": "9303997ff17fa48ad5e5730f33b7e79a687cc2a1fdad928666bb63dc3514c51d"
+    },
+    {
+      "source": "nanochat/dataloader.py",
+      "destination": "nanochat/dataloader.py",
+      "changed": true,
+      "source_sha256": "6b780316399da5aa21a32d7127a38431b6daaaee735c8b33f74f910f951b403e",
+      "release_sha256": "50aa9718903b2049602f8fc01e26153738c09cea120ffeefa1ad952646129f9b"
+    },
+    {
+      "source": "nanochat/dataset.py",
+      "destination": "nanochat/dataset.py",
+      "changed": true,
+      "source_sha256": "3ec2ad5987875e3d7f3ec72f08d78089fe8a3b20090448b798c21c4efb93d18a",
+      "release_sha256": "3162bc3c44a960bd704c3c70262015f16ec3bf4c226aac777ab6541d0048f80d"
+    },
+    {
+      "source": "nanochat/edit_dataloader.py",
+      "destination": "nanochat/edit_dataloader.py",
+      "changed": false,
+      "source_sha256": "6493deb38d2f62786505ea4ba335c534b586204d29caf1e03aab4b8b802813b2",
+      "release_sha256": "6493deb38d2f62786505ea4ba335c534b586204d29caf1e03aab4b8b802813b2"
+    },
+    {
+      "source": "nanochat/edit_dataset.py",
+      "destination": "nanochat/edit_dataset.py",
+      "changed": true,
+      "source_sha256": "1b00abe41ddb9a210ef77453b062a1309efaa05678f0a46ed05514cdbdb90383",
+      "release_sha256": "0cfccd6e29916be9085b14512a94d5c35c1bd9276ec0df9a0781804679575ffa"
+    },
+    {
+      "source": "nanochat/edit_dsl.py",
+      "destination": "nanochat/edit_dsl.py",
+      "changed": false,
+      "source_sha256": "c42796f9ef6fc4108ddd43bcef942b327b9fac2daf2d79a35341f629dcbdd6f9",
+      "release_sha256": "c42796f9ef6fc4108ddd43bcef942b327b9fac2daf2d79a35341f629dcbdd6f9"
+    },
+    {
+      "source": "nanochat/engine.py",
+      "destination": "nanochat/engine.py",
+      "changed": false,
+      "source_sha256": "ca228005e82dcf0ffee786aeec8a3c8acd19fb7bc0158895ddf3f5121f26cae6",
+      "release_sha256": "ca228005e82dcf0ffee786aeec8a3c8acd19fb7bc0158895ddf3f5121f26cae6"
+    },
+    {
+      "source": "nanochat/engine_extended.py",
+      "destination": "nanochat/engine_extended.py",
+      "changed": true,
+      "source_sha256": "36e6558a4a630a7c4fbf1e726cf2c8fb6313ad30ace758bccfe672c6554ae947",
+      "release_sha256": "b835e2b724dbac769bbef16bd72e884d00fb34b6ec3fce81362aea9021c4b6b7"
+    },
+    {
+      "source": "nanochat/execution.py",
+      "destination": "nanochat/execution.py",
+      "changed": true,
+      "source_sha256": "6fe9cb07e07d80aa5b55440a4448a5908983887abe665f00eb697e86ad39566e",
+      "release_sha256": "544161b98057017ef43be8ba0922944c92a35c493d3a42583f031c03afbdd2aa"
+    },
+    {
+      "source": "nanochat/flash_attention.py",
+      "destination": "nanochat/flash_attention.py",
+      "changed": false,
+      "source_sha256": "ca1d687e80e6cca2198549597034525381a66e7e292a9fb5d0bc178d6e4b7638",
+      "release_sha256": "ca1d687e80e6cca2198549597034525381a66e7e292a9fb5d0bc178d6e4b7638"
+    },
+    {
+      "source": "nanochat/flat_relative_dsl.py",
+      "destination": "nanochat/flat_relative_dsl.py",
+      "changed": false,
+      "source_sha256": "138b5a3c1aa71e5bfba4fee7c24babca3cfb7f35193c05199392f81af277761a",
+      "release_sha256": "138b5a3c1aa71e5bfba4fee7c24babca3cfb7f35193c05199392f81af277761a"
+    },
+    {
+      "source": "nanochat/fp8.py",
+      "destination": "nanochat/fp8.py",
+      "changed": false,
+      "source_sha256": "fb56d323639a315393b04cecd3469dc129e8c975638cfc7ced8067f647b868b6",
+      "release_sha256": "fb56d323639a315393b04cecd3469dc129e8c975638cfc7ced8067f647b868b6"
+    },
+    {
+      "source": "nanochat/gec_metrics.py",
+      "destination": "nanochat/gec_metrics.py",
+      "changed": false,
+      "source_sha256": "6683a673fc4e147c3d69276c4a1363c89e20c2d62b1400afec6bcfdc689bd31a",
+      "release_sha256": "6683a673fc4e147c3d69276c4a1363c89e20c2d62b1400afec6bcfdc689bd31a"
+    },
+    {
+      "source": "nanochat/gpt.py",
+      "destination": "nanochat/gpt.py",
+      "changed": true,
+      "source_sha256": "bc1095580e5e4fbebaf99fd62760c5ffed2913438ce32eec2c6aa00f79c2ebe2",
+      "release_sha256": "dc5e3afdebeca9debabd87ca9c2dcd0ee6ecec9f7c6d4bb3196d3cd65dfff7a6"
+    },
+    {
+      "source": "nanochat/levenshtein.py",
+      "destination": "nanochat/levenshtein.py",
+      "changed": false,
+      "source_sha256": "f5266295741ca20da9cfe98434dc84a32f3dadbb14326c6cf6712c34a205cf0e",
+      "release_sha256": "f5266295741ca20da9cfe98434dc84a32f3dadbb14326c6cf6712c34a205cf0e"
+    },
+    {
+      "source": "nanochat/levenshtein_data.py",
+      "destination": "nanochat/levenshtein_data.py",
+      "changed": false,
+      "source_sha256": "5e664067bfacfbcac91e3fb09552c5cccdb53f23d971fd984087988331afe26b",
+      "release_sha256": "5e664067bfacfbcac91e3fb09552c5cccdb53f23d971fd984087988331afe26b"
+    },
+    {
+      "source": "nanochat/loss_eval.py",
+      "destination": "nanochat/loss_eval.py",
+      "changed": false,
+      "source_sha256": "b787f030b4b888806aeb7a4cef5ec0571ab35c35e19a5f920130d7c31cee6627",
+      "release_sha256": "b787f030b4b888806aeb7a4cef5ec0571ab35c35e19a5f920130d7c31cee6627"
+    },
+    {
+      "source": "nanochat/optim.py",
+      "destination": "nanochat/optim.py",
+      "changed": false,
+      "source_sha256": "cd01ad44943ee919cc63f3dca4f61ceb34eca54c1aec9e6adb0519c1fbd0a9c1",
+      "release_sha256": "cd01ad44943ee919cc63f3dca4f61ceb34eca54c1aec9e6adb0519c1fbd0a9c1"
+    },
+    {
+      "source": "nanochat/optimized_inference.py",
+      "destination": "nanochat/optimized_inference.py",
+      "changed": false,
+      "source_sha256": "84593d0476b8fce704731e3a9dadc66a4e12a2af76987ba6e9e8bc7c051f420a",
+      "release_sha256": "84593d0476b8fce704731e3a9dadc66a4e12a2af76987ba6e9e8bc7c051f420a"
+    },
+    {
+      "source": "nanochat/oracle_ces.py",
+      "destination": "nanochat/oracle_ces.py",
+      "changed": false,
+      "source_sha256": "c3698e8b1c7906363ced1ed36690c4af02405d81957e62ab1fbff7cfe0a2fc4a",
+      "release_sha256": "c3698e8b1c7906363ced1ed36690c4af02405d81957e62ab1fbff7cfe0a2fc4a"
+    },
+    {
+      "source": "nanochat/oracle_edit_likelihood.py",
+      "destination": "nanochat/oracle_edit_likelihood.py",
+      "changed": false,
+      "source_sha256": "f99531989dbfce8a2ffacf781e4b79f38cdd9fb5add40f786cc48e1f6d71ca35",
+      "release_sha256": "f99531989dbfce8a2ffacf781e4b79f38cdd9fb5add40f786cc48e1f6d71ca35"
+    },
+    {
+      "source": "nanochat/predicted_fim.py",
+      "destination": "nanochat/predicted_fim.py",
+      "changed": false,
+      "source_sha256": "3d5b25f8a082c6009040af72a56ee90f0b2f5f05b7229198cb7a8d2451dc0cfa",
+      "release_sha256": "3d5b25f8a082c6009040af72a56ee90f0b2f5f05b7229198cb7a8d2451dc0cfa"
+    },
+    {
+      "source": "nanochat/pretrained_adapter.py",
+      "destination": "nanochat/pretrained_adapter.py",
+      "changed": false,
+      "source_sha256": "706aaf006679546e9c48e365a0911d9a9393e45461bf37d4b6e96f9dfd6ddaf7",
+      "release_sha256": "706aaf006679546e9c48e365a0911d9a9393e45461bf37d4b6e96f9dfd6ddaf7"
+    },
+    {
+      "source": "nanochat/report.py",
+      "destination": "nanochat/report.py",
+      "changed": false,
+      "source_sha256": "5011b2f151fd87e94e273ccdc49284cd8be7cf2aa29d9af3bdeb8f7a2fab5fde",
+      "release_sha256": "5011b2f151fd87e94e273ccdc49284cd8be7cf2aa29d9af3bdeb8f7a2fab5fde"
+    },
+    {
+      "source": "nanochat/rl_pair_dataloader.py",
+      "destination": "nanochat/rl_pair_dataloader.py",
+      "changed": false,
+      "source_sha256": "befb32283965e0eafc49f75d63281948fee817ef5ab248db0b988cf13a88ca08",
+      "release_sha256": "befb32283965e0eafc49f75d63281948fee817ef5ab248db0b988cf13a88ca08"
+    },
+    {
+      "source": "nanochat/text_edit_baselines.py",
+      "destination": "nanochat/text_edit_baselines.py",
+      "changed": false,
+      "source_sha256": "0b28cd79faaa402be93ae37ab797618490997c4e15aff2c1df5b3e9ec28d5c63",
+      "release_sha256": "0b28cd79faaa402be93ae37ab797618490997c4e15aff2c1df5b3e9ec28d5c63"
+    },
+    {
+      "source": "nanochat/tokenizer.py",
+      "destination": "nanochat/tokenizer.py",
+      "changed": true,
+      "source_sha256": "e1e001ee9415486b88d9af0df9cacf6e24f285b1a8866ed9182bcaf0b33dcace",
+      "release_sha256": "56f8ec5d0b196627637eacfab6e55547eaa1b3b3b84140c5abdedfbbd67d0bea"
+    },
+    {
+      "source": "nanochat/tokenizer_contract.py",
+      "destination": "nanochat/tokenizer_contract.py",
+      "changed": true,
+      "source_sha256": "7720e9ad395454b6fdcb5cf2bf5783ca6f0196c6ffa6dbe809bddb49ba767428",
+      "release_sha256": "3212c184f559a31541034f022fa990a202fd75786914da7798ec066fe14a1cd3"
+    }
+  ],
+  "changes": "Workflow namespace consolidation; removal of unrelated arithmetic evaluation hooks; portable default paths and tokenizer setup message. Core tensor operations preserved. Trailing whitespace normalized for the public repository.",
+  "readability_review": {
+    "status": "uncommitted review changes",
+    "changes": [
+      "Expand the public CLI and inference entry points into readable functions.",
+      "Replace exploratory serializer documentation with the implemented format.",
+      "Remove nine unused serializer imports; executable serializer AST unchanged."
+    ]
+  }
+}
