@@ -1,5 +1,8 @@
 # Causal Edit Serialization (CES)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.22820-b31b1b.svg)](https://arxiv.org/abs/2610.22820)
+[![Hugging Face: Data and checkpoints](https://img.shields.io/badge/Hugging%20Face-Data%20%26%20checkpoints-FFD21E?logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/lorob/CES)
+
 CES represents text edits as causal programs with a localization head and dual-index positional encoding. This repository contains the checkpoint-compatible implementation, training and evaluation workflows, and figure-building code for the CES paper.
 
 The [lorob/CES artifact repository](https://huggingface.co/datasets/lorob/CES) contains 66 checkpoints, the canonical tokenizer, public data components and CoEdIT reconstruction recipes. Checkpoints use this implementation, not Transformers `AutoModel`. Download individual components rather than the whole repository. Detailed evaluation records and the full results archive are not part of this artifact release.
@@ -133,3 +136,19 @@ uv run pytest tests -q
 ```
 
 Artifact manifests record SHA256 hashes. Public pretraining candidates omit five quarantined rows, so historical data sampling cannot be reproduced bit-for-bit. Raw ClimbMix, optimizer states and intermediate balanced-SFT/broad-RL weights are not distributed. Component licences and source-data attribution are in the artifact repository's `LICENSES.md` and `NOTICE.md`.
+
+## Citation
+
+If you use CES or its released artifacts, please cite the paper:
+
+```bibtex
+@misc{robinson2026causaleditserialization,
+  title         = {Causal Edit Serialization},
+  author        = {Louis Robinson},
+  year          = {2026},
+  eprint        = {2610.22820},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.22820}
+}
+```

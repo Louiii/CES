@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use CES, please cite the paper listed below."
+title: "Causal Edit Serialization (CES)"
+authors:
+  - family-names: Robinson
+    given-names: Louis
+repository-code: "https://github.com/Louiii/CES"
+url: "https://arxiv.org/abs/2610.22820"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Causal Edit Serialization"
+  authors:
+    - family-names: Robinson
+      given-names: Louis
+  journal: arXiv
+  year: 2026
+  doi: "10.48550/arXiv.2610.22820"
+  url: "https://arxiv.org/abs/2610.22820"
